@@ -1,0 +1,85 @@
+#upBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+}
+li {
+  float: right;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 200;
+  font-family: arial;
+
+}
+#signIn{
+  background-color: #4885ed;
+  font-family: arial;
+}
+#signInText{
+  color: white;
+}
+#downBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-content: center;
+  background-color: #ECEFF1;
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+}
+#advertising{
+  float: bottom left;
+  color:black;
+}
+#business{
+  float: left;
+}
+#about{
+  float: left;
+}
+#advertising{
+  float: left;
+}
+img{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -272px;
+    margin-top: -92px;
+
+}
+#searchBar{
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  width: 50vw;
+  height: 6vh;
+}
+#googleSearch{
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  text-decoration-color: black;
+  background-color: #ECEFF1;
+}
+#luckyButton{
+  text-decoration-color: black;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  background-color: #ECEFF1;
+}
